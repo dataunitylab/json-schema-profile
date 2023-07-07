@@ -38,7 +38,7 @@ property  | description
 property         | description
 :--              | :--
 `bloomFilter`    | A [Bloom filter](#bloom-filter) of integer values
-`distinctValues` | An estimate of the number of distinct values of this property
+`distinctValues` | An estimate of the number of distinct values (cardinality) of this property
 `histogram`      | A [histogram](#histogram) of integer values
 `statistics`     | A set of [statistics](#statistics) of integer values
 
@@ -47,7 +47,7 @@ property         | description
 property         | description
 :--              | :--
 `bloomFilter`    | A [Bloom filter](#bloom-filter) of number values
-`distinctValues` | An estimate of the number of distinct values of this property
+`distinctValues` | An estimate of the number of distinct values (cardinality) of this property
 `histogram`      | A [histogram](#histogram) of number values
 `statistics`     | A set of [statistics](#statistics) of number values
 
@@ -61,5 +61,5 @@ property         | description
 property          | description
 :--               |:--
 `bloomFilter`     | A [Bloom filter](#bloom-filter) of string values
-`distinctValues`  | An estimate of the number of distinct values of this property
+`distinctValues`  | An estimate of the number of distinct values (cardinality) of this property
 `lengthHistogram` | A [histogram](#Histogram) of string lengths
